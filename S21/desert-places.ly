@@ -12,11 +12,11 @@ part_one = \relative c' {
   \key fis \minor
   \tempo 4 = 60
   r2. |
+  r4. a'8 g8 r8 |
   r2. |
-  r2. |
-  r2. |
-  r2. |
-  r2.
+  r2 a8 g8 |
+  r4 e4. fis8 |
+  e2 r4
 }
 
 part_two = \relative c' {
@@ -30,42 +30,43 @@ part_two = \relative c' {
   fis'4 e4 r4 |
   cis4 a2 |
   r4 e'2 |
-  d4 cis4.\tempo 4 = 80 d8 |
+  d4 cis4.\tempo 4 = 90 d8 |
   cis2 r4
 }
 
 part_three = \relative c' {
   \time 3/4
-  \clef treble
+  \clef "treble_8"
   \key fis \minor
   \tempo 4 = 60
   r2. |
+  r4. cis8 b8 r8|
   r2. |
-  r2. |
-  r2. |
-  r2. |
-  r2.
+  r2 cis8 b8 |
+  r4 cis4. d8 |
+  cis2 r4
 }
 
 part_four = \relative c' {
   \time 3/4
-  \clef treble
+  \clef bass
   \key fis \minor
   \tempo 4 = 60
   r2. |
+  a2 a8 r8|
   r2. |
-  r2. |
-  r2. |
-  r2. |
-  r2.
+  r2 a8 g8 |
+  r4 a4. b8 |
+  a2 r4
 }
 
 <<
   \new Staff \part_one
+  \addlyrics { \lyricmode { fall -- ing fall -- ing fast, oh, fast. }}
   \new Staff \part_two
-  \new Lyrics \lyricmode {
-      \markup "Snow fall-ing and night fall-ing fast, oh, fast" 1
-    }
+  \addlyrics { \lyricmode { Snow fall -- ing and night fall -- ing fast, oh, fast. }}
   \new Staff \part_three
+  \addlyrics { \lyricmode { fall -- ing fall -- ing fast, oh, fast. }}
   \new Staff \part_four
+  \addlyrics { \lyricmode { fall -- ing fall -- ing fast, oh, fast. }}
 >>
