@@ -21,6 +21,11 @@ part_one = \relative c' {
   r2. |
   b4. cis4. |
   d2. |
+
+  r2. |
+  r2. |
+  r4 d4 cis4 |
+  b4 gis2 |
 }
 
 part_two = \relative c' {
@@ -40,6 +45,11 @@ part_two = \relative c' {
   r2. |
   r4. cis4. |
   d2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
 }
 
 part_three = \relative c' {
@@ -56,7 +66,12 @@ part_three = \relative c' {
 
   r2. |
   r2. |
-  fis2. |
+  fis'2. |
+
+  r4 cis8 d8 cis4 |
+  r4 cis8 d8 cis8 d8 |
+  e4 cis4 a4 |
+  r2. |
 }
 
 part_four = \relative c' {
@@ -74,15 +89,20 @@ part_four = \relative c' {
   cis8 d8 cis4. r8 |
   d8 cis8 d8 cis4 r8 |
   b8 cis8 b2 |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
 }
 
 <<
   \new Staff \with { instrumentName = "Sop." } \part_one
-  \addlyrics { \lyricmode { fall -- ing fall -- ing In a field}}
+  \addlyrics { \lyricmode { fall -- ing fall -- ing In a field cov -- ered in snow}}
   \new Staff \with { instrumentName = "Alto" } \part_two
   \addlyrics { \lyricmode { Snow fall -- ing and night fall -- ing fast, oh, fast a field}}
   \new Staff \with { instrumentName = "Tenor" } \part_three
-  \addlyrics { \lyricmode { fall -- ing fall -- ing field }}
+  \addlyrics { \lyricmode { fall -- ing fall -- ing field And the ground al -- most cov -- ered smooth in snow}}
   \new Staff \with { instrumentName = "Bass" } \part_four
   \addlyrics { \lyricmode { fall -- ing fall -- ing  In a field I looked in -- to go -- ing past,}}
 >>
