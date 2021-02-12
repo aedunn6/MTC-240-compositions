@@ -14,9 +14,9 @@ part_one = \relative c' {
   r2. |
   r4. a'8 g8 r8 |
   r2. |
-  r2 a8 g8 |
-  r4 e4. fis8 |
-  e2 r4
+  r2 r8 gis8 |
+  fis8 r8 r2 |
+  r2.
 }
 
 part_two = \relative c' {
@@ -30,8 +30,8 @@ part_two = \relative c' {
   fis'4 e4 r4 |
   cis4 a2 |
   r4 e'2 |
-  d4 cis4.\tempo 4 = 90 d8 |
-  cis2 r4
+  d4 cis4. \tempo 4 = 90 d8 |
+  cis2 r4 \tempo 4 = 60
 }
 
 part_three = \relative c' {
@@ -42,9 +42,9 @@ part_three = \relative c' {
   r2. |
   r4. cis8 b8 r8|
   r2. |
-  r2 cis8 b8 |
-  r4 cis4. d8 |
-  cis2 r4
+  r2 r8 b8 |
+  a8 r8 r2 |
+  r2.
 }
 
 part_four = \relative c' {
@@ -55,18 +55,18 @@ part_four = \relative c' {
   r2. |
   a2 a8 r8|
   r2. |
-  r2 a8 g8 |
-  r4 a4. b8 |
-  a2 r4
+  r2 r8 gis8 |
+  fis8 r8 r2 |
+  r2.
 }
 
 <<
-  \new Staff \part_one
-  \addlyrics { \lyricmode { fall -- ing fall -- ing fast, oh, fast. }}
-  \new Staff \part_two
+  \new Staff \with { instrumentName = "Sop." } \part_one
+  \addlyrics { \lyricmode { fall -- ing fall -- ing }}
+  \new Staff \with { instrumentName = "Alto" } \part_two
   \addlyrics { \lyricmode { Snow fall -- ing and night fall -- ing fast, oh, fast. }}
-  \new Staff \part_three
-  \addlyrics { \lyricmode { fall -- ing fall -- ing fast, oh, fast. }}
-  \new Staff \part_four
-  \addlyrics { \lyricmode { fall -- ing fall -- ing fast, oh, fast. }}
+  \new Staff \with { instrumentName = "Tenor" } \part_three
+  \addlyrics { \lyricmode { fall -- ing fall -- ing }}
+  \new Staff \with { instrumentName = "Bass" } \part_four
+  \addlyrics { \lyricmode { fall -- ing fall -- ing }}
 >>
