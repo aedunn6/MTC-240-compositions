@@ -63,8 +63,23 @@ part_one = \relative c' {
   e8 g4 fis4. |
   r2. |
   r2. |
-
   % 4
+  r2. |
+
+  r2. |
+  r2. |
+  d8 d8 a'4. g8 |
+  a4 r8 a4 g8 |
+
+  fis8 e8 g8 fis4 r8 |
+  r8 fis8 fis8 fis8 g8 fis8 |
+  r8 g4 fis8 e8 d8 |
+  fis2 r4 |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
 }
 
 part_two = \relative c' {
@@ -127,8 +142,23 @@ part_two = \relative c' {
   r2. |
   r8 e'8 d4 cis4 |
   d4 cis4. r8 |
-
   % 4
+  r8 a8 a8 a8 fis'8 e8 |
+
+  r8 g4 fis8 e8 d8 |
+  fis8 e4. r4 |
+  r2. |
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
+
+  r8 a,8 a8 a8 a4 |
+  r8 fis'4 e8 d4 |
+  r4 a8 a8 e'8 d8 |
+  d2. |
 }
 
 part_three = \relative c' {
@@ -188,8 +218,23 @@ part_three = \relative c' {
   r2. |
   r2. |
   r2. |
-
   % 4
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
 }
 
 part_four = \relative c' {
@@ -249,15 +294,32 @@ part_four = \relative c' {
   r2. |
   r2. |
   r2. |
-
   % 4
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
+
+  r2. |
+  r2. |
+  r2. |
+  r2. |
 }
 
 <<
   \new Staff \with { instrumentName = "Sop." } \part_one
   \addlyrics { \lyricmode { fall -- ing fall -- ing In a field cov -- ered in snow
   And lone -- ly as it is, that lon -- li -- ness will be
-  With no ex -- press -- ion,}}
+  With no e -- x -- press -- ion,
+  Be -- tween stars, on stars where no hu -- man race is.
+  I have it in me so much near -- er home}}
   \new Staff \with { instrumentName = "Alto" } \part_two
   \addlyrics { \lyricmode { Snow fall -- ing and night fall -- ing fast, oh, fast
   a field But a few weeds and stub -- ble show -- ing last.
@@ -266,7 +328,9 @@ part_four = \relative c' {
   I am too ab -- sent spir -- i -- ted to count;
   The lon -- li -- ness in -- cludes me un -- a -- wares.
   more lone -- ly ere it will be less
-  no -- thing to ex -- press.}}
+  no -- thing to ex -- press.
+  They can -- not scare me with their emp -- ty spa -- ces
+  To scare my -- self with my own des -- ert pla -- ces._}}
   \new Staff \with { instrumentName = "Tenor" } \part_three
   \addlyrics { \lyricmode { fall -- ing fall -- ing field
   And the ground al -- most cov -- ered smooth in snow}}
